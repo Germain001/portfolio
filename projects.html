@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="icon" href="image.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #2c2c2c;
+            color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #1a1a1a;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .navbar a {
+            color: #f1f1f1;
+            text-decoration: none;
+            padding: 8px 16px;
+        }
+        .navbar a:hover {
+            background-color: #333;
+            border-radius: 4px;
+        }
+        .headshot {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .headshot img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        .content {
+            background-color: #000;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .project {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 10px;
+            background-color: #1a1a1a;
+        }
+        .project img {
+            border-radius: 8px;
+            width: 200px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .project-summary {
+            flex: 1;
+        }
+        .project-summary h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-brand">My Portfolio</div>
+            <div class="navbar-links">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="https://www.linkedin.com/in/elenge-germain-5ab8b2319/"><b>Connect</b></a> <!-- Just leads straight to my linkedin -->
+            </div>
+        </div>
+        <div class="headshot">
+            <img src="headshot1.jpeg" alt="My Headshot">
+            <div>
+                <h1>Germain</h1>
+                <p>Backend Developer / Security Analyst</p>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <div class="project-summary">
+                    <h3>Project 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt accusamus dolorum excepturi hic quasi voluptatum dolore expedita nesciunt ea culpa doloremque, eveniet, debitis maiores, totam magnam. Deserunt eos commodi maxime!</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <div class="project-summary">
+                    <h3>Project 2</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis corporis labore cum reprehenderit eos dolorem nisi praesentium, neque veniam voluptatibus quisquam placeat excepturi. Facere voluptatem distinctio doloremque mollitia veritatis laborum.</p>
+                </div>
+            </div>
+
+            <!-- I can later on add more below if I need to -->
+
+        </div>
+    </div>
+</body>
+</html>

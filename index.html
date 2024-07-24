@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio Website</title>
+    <link rel="icon" href="image.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #2c2c2c;
+            color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #1a1a1a;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .navbar a {
+            color: #f1f1f1;
+            text-decoration: none;
+            padding: 8px 16px;
+        }
+        .navbar a:hover {
+            background-color: #333;
+            border-radius: 4px;
+        }
+        .headshot {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .headshot img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        .cmd-prompt, .experience, .skills {
+            background-color: #000;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .cmd-prompt {
+            background-color: #000;
+            color: lime;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            line-height: 1.5;
+            white-space: pre-wrap;
+        }
+        .cmd-prompt::before {
+            content: "Microsoft Windows [Version 10.0.19041.388]\A\A(c) 2020 Microsoft Corporation. All rights reserved.\A\A";
+            color: lime;
+            white-space: pre;
+        }
+        .content {
+            background-color: #000;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .aboutme-list, .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .aboutme-list li, .skills-list li {
+            margin: 10px 0;
+        }
+        .aboutme-list li::before, .skills-list li::before {
+            content: "•";
+            color: rgb(221, 60, 154);
+            margin-right: 10px;
+        }
+        .education-list, .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .education-list li, .skills-list li {
+            margin: 10px 0;
+        }
+        .education-list li::before, .skills-list li::before {
+            content: "•";
+            color: rgb(221, 60, 154);
+            margin-right: 10px;
+        }
+        .experience-list, .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .experience-list li, .skills-list li {
+            margin: 10px 0;
+        }
+        .experience-list li::before, .skills-list li::before {
+            content: "•";
+            color: lime;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-brand">My Portfolio</div>
+            <div class="navbar-links">
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+                <a href="https://www.linkedin.com/in/elenge-germain-5ab8b2319/"><b>Connect</b></a>
+            </div>
+        </div>
+        <div class="headshot">
+            <img src="headshot1.jpeg" alt="My Headshot">
+            <div>
+                <h1>Germain</h1>
+                <p>Backend Developer / Security Analyst</p>
+            </div>
+        </div>
+        <div class="cmd-prompt"> C:\Users\Germain>dir
+            Volume in drive C has no label.
+            
+            07/23/2024  02:31 PM             <a href="projects.html">Projects</a>
+            07/23/2024  02:31 PM             <a href="contact.html">Contact</a>
+                           0 File(s)              0 bytes
+                           2 Dir(s)  234,567,890,123 bytes free
+
+            C:\Users\Germain>Backend Developer / Security Analyst
+            Backend Developer / Security Analyst
+
+            C:\Users\Germain>_ 
+        </div>
+        <div class="about me">
+            <h2>Get To Know Me</h2>
+            <ul class="aboutme-list">
+                <li>I like playing sports, specifically soccer.</li>
+                <li>I play electric and bass guitar.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Distinctio, perspiciatis excepturi voluptatibus eaque reprehenderit quos labore deserunt ducimus expedita molestias ipsam officia beatae. Facere debitis eum dolorum aliquid fuga soluta.</li>
+            </ul>
+        </div>
+        <div class="education">
+            <h2>Education</h2>
+            <ul class="education-list">
+                <li>Baltimore City College class of 2026</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod molestiae fuga quaerat animi illo? Praesentium eum omnis dolor, facere magnam ea voluptates dolorum dolorem, id fuga nesciunt facilis nihil.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, perspiciatis excepturi voluptatibus eaque reprehenderit quos labore deserunt ducimus expedita molestias ipsam officia beatae. Facere debitis eum dolorum aliquid fuga soluta.</li>
+            </ul>
+        </div>
+        <div class="experience">
+            <h2>Experience</h2>
+            <ul class="experience-list">
+                <li>Security Analyst Intern at University of Baltimore for CodeWorks (Summer 2024)</li>
+                <li>Monitored network traffic using Wireshark and Cyber Defender</li>
+                <li>Developed backend solutions for secure data management</li>
+            </ul>
+        </div>
+        <div class="skills"> <!-- These skills are mostly just placeholders as I have yet to acquire any -->
+            <h2>What Skill I Have</h2>
+            <ul class="skills-list">
+                <li>Leadership skills</li>
+                <li>Network Security</li>
+                <li>Penetration Testing</li>
+                <li>Incident Response</li>
+                <li>Firewall Management</li>
+                <li>Threat Intelligence</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
