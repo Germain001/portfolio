@@ -69,11 +69,17 @@
             height: auto;
             margin-right: 20px;
         }
-        .project-summary {
-            flex: 1;
+        .project-list{
+            list-style-type: none;
+            padding: 0;
         }
-        .project-summary h3 {
-            margin-top: 0;
+        .project-list li {
+            margin: 10px 0;
+        }
+        .project-list li::before{
+            content: "•";
+            color: rgb(221, 60, 154);
+            margin-right: 10px;
         }
     </style>
 </head>
@@ -84,8 +90,7 @@
             <div class="navbar-links">
                 <a href="index.html">Home</a>
                 <a href="contact.html">Contact</a>
-                <a href="resume.html">Resume</a>
-                <a href="https://www.linkedin.com/in/elenge-germain-5ab8b2319/"><b>Connect</b></a> <!-- Just leads straight to my linkedin -->
+                <a href="https://www.linkedin.com/in/elenge-germain-5ab8b2319/"><b>Connect</b></a>
             </div>
         </div>
         <div class="headshot">
@@ -96,14 +101,16 @@
             </div>
         </div>
         <div class="content">
-            <h2>Projects</h2> <!-- The project listing are mostly just placeholders for now -->
+            <h2>Projects</h2>
 
             <div class="project">
-                <img src="project1.jpg" alt="Project 1">
-                <div class="project-summary">
-                    <h3>Snake Game| Python, PyGame</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt accusamus dolorum excepturi hic quasi voluptatum dolore expedita nesciunt ea culpa doloremque, eveniet, debitis maiores, totam magnam. Deserunt eos commodi maxime!</p>
-                </div>
+                <h2>Snake Game</h2>
+                <ul class="project-list">
+                    <li>Baltimore City College class of 2026</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod molestiae fuga quaerat animi illo? Praesentium eum omnis dolor, facere magnam ea voluptates dolorum dolorem, id fuga nesciunt facilis nihil.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, perspiciatis excepturi voluptatibus eaque reprehenderit quos labore deserunt ducimus expedita molestias ipsam officia beatae. Facere debitis eum dolorum aliquid fuga soluta.</li>
+                </ul>
+            </div>
             </div>
 
             <div class="project">
