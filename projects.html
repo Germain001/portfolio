@@ -69,17 +69,11 @@
             height: auto;
             margin-right: 20px;
         }
-        .project-list{
-            list-style-type: none;
-            padding: 0;
+        .project-summary {
+            flex: 1;
         }
-        .project-list li {
-            margin: 10px 0;
-        }
-        .project-list li::before{
-            content: "•";
-            color: rgb(221, 60, 154);
-            margin-right: 10px;
+        .project-summary h3 {
+            margin-top: 0;
         }
     </style>
 </head>
@@ -105,19 +99,17 @@
 
             <div class="project">
                 <img src="Screenshot 2024-01-03 211446.png" alt="Project 1">
-                <h2>Snake Game| Python, PyGame</h2>
-                <ul class="project-list">
+                <div class="project-summary">
+                    <h3>Snake Game| Python, PyGame</h3>
                     <p>Using Python and PyGame, I was able to create a game imitating the infamous Chrome "Snake Game"</p>
-                    <li>Baltimore City College class of 2026</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quod molestiae fuga quaerat animi illo? Praesentium eum omnis dolor, facere magnam ea voluptates dolorum dolorem, id fuga nesciunt facilis nihil.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, perspiciatis excepturi voluptatibus eaque reprehenderit quos labore deserunt ducimus expedita molestias ipsam officia beatae. Facere debitis eum dolorum aliquid fuga soluta.</li>
-                </ul>
-            </div>
+                    <p><b>Challenges Faced</b></p>
+                    <li>Challenge 1: Sound Incorporation:</li>                    
+                </div>
             </div>
 
             <div class="project">
                 <img src="project2.jpg" alt="Project 2">
-                <div class="project-list">
+                <div class="project-summary">
                     <h3>Project 2</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis corporis labore cum reprehenderit eos dolorem nisi praesentium, neque veniam voluptatibus quisquam placeat excepturi. Facere voluptatem distinctio doloremque mollitia veritatis laborum.</p>
                 </div>
