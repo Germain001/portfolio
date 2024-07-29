@@ -4,3 +4,4 @@
 3. The skill listing are mostly just placeholders for now.
 4. No higher education than high school level so I've just left some lorem ipsum placeholders.
 5. I utilized stack overflow a ton for this.
+6. Adding the projects was the easy part.
